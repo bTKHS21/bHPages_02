@@ -1,0 +1,11 @@
+#id_01{
+    width: 300px;
+}
+#id_02{
+    font-size: 6em;
+}
+#id_03{
+    position: fixed;
+    left: 10px;
+    bottom: 2px;
+}

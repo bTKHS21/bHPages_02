@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="nes-container with-title" id="id_01">
+        <h2 class="title">welcome</h2>
+        <div id="app">
+            <p>{{msg}}</p>
+            <p id="id_02">{{msg01}}</p>
+            <button class="nes-btn" v-on:click="change_function">Hi</button>
+        </div>
+    </section>
+    <footer>
+            <p id="id_03">© 2019 bTKH</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="main.js"></script>
+</html>
