@@ -1,5 +1,5 @@
 #id_01{
-    width: 300px;
+    font-size: 2em;
 }
 #id_02{
     font-size: 6em;
@@ -8,4 +8,8 @@
     position: fixed;
     left: 10px;
     bottom: 2px;
+}
+#id_04{
+    width: 50px;
+    height: 50px;
 }
